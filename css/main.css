@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; 
+}
+
+.searchbar {
+    text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+
+input {
+    border: 1.5px solid rgb(228, 217, 217);
+    border-radius: 5px;
+    width: 550px;
+    height: 45px;
+    margin-top: 15px;
+    padding-left: 5px;
+    margin-bottom: 25px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+::placeholder {
+    font-size: 17px;
+}
+
+.gallery {
+    text-align: center;    
+}
+
+a {
+  text-decoration: none;
+}
